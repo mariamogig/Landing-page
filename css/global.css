@@ -372,7 +372,7 @@ a {
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin-right: 120px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   padding-top: 150px;
 }
 
@@ -384,21 +384,20 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.sec3 .motherdiv :nth-child(1),
-.sec3 .motherdiv :nth-child(2),
-.sec3 .motherdiv :nth-child(3) {
-  margin-right: 130px;
+  max-width: 2500px;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .sec3 .motherdiv .blocks {
+  text-transform: uppercase;
   width: 15%;
   text-align: center;
 }
@@ -406,7 +405,7 @@ a {
 .sec3 .motherdiv .blocks .desc {
   font-size: 25px;
   margin-bottom: 15px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: "Varela Round", sans-serif;
 }
 
@@ -485,5 +484,33 @@ a {
   .footer .iconsft {
     display: none;
   }
+}
+
+.sec3 {
+  height: 600px;
+}
+
+.sec3 .popular {
+  font-size: 25px;
+}
+
+.sec3 .motherdiv :nth-child(1),
+.sec3 .motherdiv :nth-child(2),
+.sec3 .motherdiv :nth-child(3) {
+  margin-right: 0px;
+}
+
+.sec3 .motherdiv .blocks .desc {
+  font-size: 10px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.sec3 .motherdiv .blocks .price {
+  font-size: 10px;
+}
+
+.sec3 .motherdiv .blocks .im1 {
+  border-radius: 5px;
 }
 /*# sourceMappingURL=global.css.map */

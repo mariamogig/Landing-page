@@ -71,3 +71,30 @@
     }
 }
 }
+.sec3 {
+    height: 600px;
+.popular {
+        font-size: 25px;
+        }
+.motherdiv {    
+        :nth-child(1),
+        :nth-child(2),
+        :nth-child(3) {
+            margin-right: 0px;
+          }
+    .blocks {
+        // width: 50%;
+        .desc {
+        font-size: 10px;
+        margin-bottom: 8px;
+        margin-top: 10px;
+        }
+        .price {
+        font-size: 10px;
+        }
+        .im1 {
+        border-radius: 5px;
+        }
+}
+}
+}
