@@ -1,0 +1,112 @@
+// .sect1 {
+//     margin-top: 100px;
+//     display: flex;
+//     justify-content: space-around;
+//     .contact-form {
+//     display: flex;
+//     }
+//     .textarea-wrapper {
+//         max-width: 900px;
+//         width: 100%;
+//         height: 238px;
+//         border: 0.5px solid #E8E8E8;
+//         background-color: #F8F8F8;
+//         padding-top: 20px;
+//         padding-left: 20px;
+//         font-size: 13px;
+//     }
+//     .input-wraper {
+//         max-width: 400px;
+//         width: 100%;
+//         height: 60px;
+//         border: 0.5px solid #E8E8E8;
+//         background-color: #F8F8F8;
+//         padding-top: 10px;
+//         padding-left: 10px;
+//         padding-bottom: 10px;
+//         font-size: 13px;
+//     }
+//     .btn {
+//         max-width: 400px;
+//         width: 100%;
+//         height: 60px;
+//         background-color: #909395; 
+//         border: 0.5px solid #E8E8E8; 
+//         font-family: 'Poppins', sans-serif;
+//         font-size: 13px;
+//     .left {
+//         margin-right: 30px;
+//         max-width: 720px;
+//         width: 100%;
+//     }
+//     .right {
+//         -webkit-box-orient: vertical;
+//         -webkit-box-direction: normal;
+//             -ms-flex-direction: column;
+//                 flex-direction: column;
+//         max-width: 350px;
+//         width: 100%;
+//     }
+//     .form {
+//         max-width: 350px;
+//         width: 100%;
+//     }
+//     .input-wraper:nth-child(1),
+//     .input-wraper:nth-child(2) {
+//     margin-bottom: 16px;
+// }
+// }
+.sect1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    .form-wrapper {
+        .contact-form {
+            .right {
+                .form {
+                    .input-wraper {
+                        max-width: 850px;
+                        width: 100%;
+                        height: 50px;
+                    }
+                }
+
+            }
+        }
+    }
+    .contact {
+        font-size: 30px;
+        .ci {
+            margin-bottom: 20px;
+        }
+        .info {
+            margin-bottom: 20px;
+        }
+    }
+}
+// footer
+.footer {
+    margin-top: 100px;
+    .forms {
+        display: flex;
+        justify-content: center;
+    }  
+    .email-box {
+        max-width: 430px;
+        width: 100%;
+        background-color: #EAECF2;
+        height: 52px;
+    }
+    .ft-titles {
+        text-align: center;
+        margin-bottom: 5px;
+        .fth4 {
+            color: #7E76F9;
+            font-size: 20px;
+        }
+        .fth2 {
+            font-size: 32px;
+            color: #42495B;
+        }
+    }
+}

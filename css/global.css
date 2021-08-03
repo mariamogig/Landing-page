@@ -1,0 +1,489 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sect1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 100px;
+}
+
+.sect1 .form-wrapper .contact-form .right .form .input-wraper {
+  max-width: 850px;
+  width: 100%;
+  height: 50px;
+}
+
+.sect1 .contact {
+  font-size: 30px;
+}
+
+.sect1 .contact .ci {
+  margin-bottom: 20px;
+}
+
+.sect1 .contact .info {
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer .forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .email-box {
+  max-width: 430px;
+  width: 100%;
+  background-color: #EAECF2;
+  height: 52px;
+}
+
+.footer .ft-titles {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.footer .ft-titles .fth4 {
+  color: #7E76F9;
+  font-size: 20px;
+}
+
+.footer .ft-titles .fth2 {
+  font-size: 32px;
+  color: #42495B;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo .furniture {
+  font-size: 27px;
+  font-family: "Raleway", sans-serif;
+  color: #424345;
+  padding-left: 100px;
+  width: 210px;
+}
+
+.header .burger {
+  display: none;
+  padding-right: 40px;
+  padding-top: 6px;
+  color: #919293;
+  font-size: 30px;
+}
+
+.header .nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 96px;
+}
+
+.header .nav-ul .nav-li {
+  margin-left: 58px;
+  font-size: 20px;
+  color: #303134;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.background {
+  background-image: url("../images/banner3.jpg");
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.background .titles {
+  padding-left: 110px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.background .title1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #424345;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.background .title2 {
+  font-size: 35px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #626664;
+  margin-left: 10px;
+}
+
+.background .butt {
+  border-radius: 8px;
+  width: 150px;
+  height: 65px;
+  background-color: #dfb0a3;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  margin-top: 29px;
+  margin-left: 10px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.background .butt:hover {
+  background-color: #c6adb1;
+  color: white;
+}
+
+.aboutus {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.aboutus .about1 {
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 20px;
+  color: #626664;
+}
+
+.aboutus .about2 {
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #909395;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+}
+
+.footer .iconsft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 67px;
+  font-size: 20px;
+}
+
+.footer .iconsft .follow {
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.footer .iconsft .fab {
+  margin-right: 10px;
+}
+
+.ft-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-transform: uppercase;
+  margin-left: 49px;
+}
+
+.ft-li {
+  margin-right: 30px;
+  font-size: 16px;
+}
+
+.iconsft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 67px;
+}
+
+.foot2 {
+  height: 100px;
+  background-color: #e1e0de;
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding-top: 40px;
+}
+
+.products .catalog {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.products .catalog .imgcat {
+  display: block;
+  width: 25%;
+  margin-right: 17px;
+  margin-bottom: 17px;
+  border-radius: 10px;
+}
+
+.products .catalog .imgcat:hover {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.products .producttitle .line {
+  width: 100%;
+  height: 1px;
+  background-color: #e1e0de;
+}
+
+.products .producttitle .best {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  color: #626664;
+}
+
+.sec3 {
+  margin-top: 120px;
+  background-color: #e1e0de;
+  height: 950px;
+  width: 100%;
+}
+
+.sec3 .popular {
+  font-size: 50px;
+  color: #87676a;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-right: 120px;
+  margin-bottom: 80px;
+  padding-top: 150px;
+}
+
+.sec3 .popular .bold {
+  font-weight: bold;
+}
+
+.sec3 .motherdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec3 .motherdiv :nth-child(1),
+.sec3 .motherdiv :nth-child(2),
+.sec3 .motherdiv :nth-child(3) {
+  margin-right: 130px;
+}
+
+.sec3 .motherdiv .blocks {
+  width: 15%;
+  text-align: center;
+}
+
+.sec3 .motherdiv .blocks .desc {
+  font-size: 25px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  font-family: "Varela Round", sans-serif;
+}
+
+.sec3 .motherdiv .blocks .price {
+  font-size: 30px;
+  color: orange;
+}
+
+.sec3 .motherdiv .blocks .im1 {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 1185px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .header .burger {
+    display: block;
+  }
+  .header .nav-ul {
+    display: none;
+  }
+  .header .logo .furniture {
+    font-size: 20px;
+    padding-left: 40px;
+  }
+  .background {
+    height: 600px;
+  }
+  .background .titles {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .background .titles .title1 {
+    font-size: 40px;
+    padding-right: 5px;
+  }
+  .background .titles .title2 {
+    font-size: 20px;
+    color: #4d4f4e;
+  }
+  .background .butt {
+    width: 100px;
+    font-size: 12px;
+    height: 55px;
+    border-radius: 4px;
+  }
+  .aboutus {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .aboutus .about1 {
+    font-size: 25px;
+  }
+  .aboutus .about2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 17px;
+  }
+  .products .producttitle .best {
+    font-size: 20px;
+  }
+  .foot2 {
+    font-size: 11px;
+  }
+  .footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .ft-ul .ft-li {
+    font-size: 10px;
+  }
+  .footer .iconsft {
+    display: none;
+  }
+}
+/*# sourceMappingURL=global.css.map */

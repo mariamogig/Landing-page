@@ -1,0 +1,9 @@
+@mixin d-flex($display, $justify, $wrap) {
+    display: $display;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
+// @mixin hovertransition($property, $duration, $type) {
+//     transition: $property, $duration, $type;
+// }
+
