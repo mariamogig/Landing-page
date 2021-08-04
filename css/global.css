@@ -374,7 +374,7 @@ a {
   text-align: center;
   margin-right: 120px;
   margin-bottom: 100px;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .sec3 .popular .bold {
@@ -393,14 +393,6 @@ a {
           align-items: center;
   max-width: 2500px;
   width: 100%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.sec3 .motherdiv :nth-child(1),
-.sec3 .motherdiv :nth-child(2),
-.sec3 .motherdiv :nth-child(3) {
-  margin-right: 130px;
 }
 
 .sec3 .motherdiv .blocks {
@@ -424,6 +416,91 @@ a {
 .sec3 .motherdiv .blocks .im1 {
   width: 100%;
   border-radius: 10px;
+}
+
+.sec4 {
+  padding-top: 200px;
+}
+
+.sec4 .background1 {
+  background-image: url("../images/banner.jpg");
+  opacity: 0.5;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec4 .background1 .titles1 {
+  padding-left: 110px;
+  max-width: 1000px;
+  width: 100%;
+  z-index: 2;
+}
+
+.sec4 .background1 .title11 {
+  font-size: 80px;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #424345;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.sec4 .background1 .title21 {
+  font-size: 35px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #626664;
+  margin-left: 10px;
+}
+
+.sec4 .background1 .butt1 {
+  border-radius: 8px;
+  max-width: 150px;
+  height: 65px;
+  background-color: #dfb0a3;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  margin-top: 29px;
+  margin-left: 10px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sec4 .background1 .butt1:hover {
+  background-color: #c6adb1;
+  color: white;
+}
+
+.deliveryicons {
+  padding-top: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 67px;
+  font-size: 70px;
+  color: gray;
+  text-align: center;
+}
+
+.deliveryicons .deliverytexts {
+  font-size: 30px;
+  margin-top: 30px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 @media (max-width: 1185px) {
@@ -515,5 +592,13 @@ a {
   .sec3 .motherdiv .blocks .im1 {
     border-radius: 5px;
   }
+}
+
+.deliveryicons {
+  font-size: 30px;
+}
+
+.deliveryicons .deliverytexts {
+  font-size: 10px;
 }
 /*# sourceMappingURL=global.css.map */
