@@ -77,12 +77,12 @@
         }
 .motherdiv {    
         :nth-child(1),
-        :nth-child(2),
         :nth-child(3) {
-            margin-right: 0px;
+            margin-right: 5px;
           }
     .blocks {
-        // width: 50%;
+        width: 45%;
+        
         .desc {
         font-size: 10px;
         margin-bottom: 8px;
