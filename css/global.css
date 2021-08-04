@@ -371,7 +371,6 @@ a {
   color: #87676a;
   font-family: "Poppins", sans-serif;
   text-align: center;
-  margin-right: 120px;
   margin-bottom: 100px;
   padding-top: 100px;
 }
@@ -453,7 +452,7 @@ a {
   font-size: 80px;
   margin-bottom: 20px;
   font-family: "Josefin Sans", sans-serif;
-  color: #424345;
+  color: red;
   max-width: 1000px;
   width: 100%;
 }
@@ -570,7 +569,7 @@ a {
     display: none;
   }
   .sec3 {
-    height: 600px;
+    height: auto;
   }
   .sec3 .popular {
     font-size: 25px;

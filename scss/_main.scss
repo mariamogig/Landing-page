@@ -278,7 +278,6 @@
         color: #87676a;
         font-family: $font05;
         text-align: center;
-        margin-right: 120px;
         margin-bottom: 100px;
         padding-top: 100px;
         .bold {
@@ -342,7 +341,7 @@
         font-size: 80px;
         margin-bottom: 20px;
         font-family: $font03;
-        color: #424345;
+        color: red;
         max-width: 1000px;
         width: 100%;
     }
@@ -385,3 +384,28 @@
             font-family: $font03;
         }
 }
+// .newsletter {
+//         .ft-titles {
+//             text-align: center;
+//             margin-bottom: 20px;
+//             .fth4 {
+//                 color: #7E76F9;
+//                 font-size: 20px;
+//             }
+//             .fth2{
+//                 font-size: 32px;
+//                 color: #42495B;
+//                 font-family: 'Poppins', sans-serif;
+//             }
+//         }
+//         .forms {
+//             display: flex;
+//             justify-content: center;
+//             }
+//             .email-box {
+
+//             } 
+//             .btn {
+
+//             }
+// }
