@@ -425,7 +425,7 @@ a {
 .sec4 .background1 {
   background-image: url("../images/banner.jpg");
   width: 100%;
-  height: 600px;
+  height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -444,7 +444,6 @@ a {
   padding-left: 110px;
   max-width: 1000px;
   width: 100%;
-  z-index: 2;
 }
 
 .sec4 .background1 .titles1 .newsletter .email-box {
@@ -453,6 +452,8 @@ a {
   height: 50px;
   border-radius: 25px;
   padding-left: 15px;
+  outline: none;
+  border: 0.5px solid #ccc;
 }
 
 .sec4 .background1 .titles1 .newsletter .butt2 {
@@ -460,8 +461,14 @@ a {
   width: 120px;
   height: 50px;
   color: black;
-  background-image: -webkit-gradient(linear, left top, right top, from(pink), to(lightblue));
-  background-image: linear-gradient(to right, pink, lightblue);
+  background-image: -webkit-gradient(linear, left top, right top, from(#ECEAE4), to(#ffdbcc));
+  background-image: linear-gradient(to right, #ECEAE4, #ffdbcc);
+  border: 0.5px solid #ccc;
+}
+
+.sec4 .background1 .titles1 .newsletter .butt2:hover {
+  background-color: red;
+  color: white;
 }
 
 .sec4 .background1 .title11 {
@@ -479,26 +486,6 @@ a {
   color: #626664;
   margin-left: 10px;
   margin-bottom: 30px;
-}
-
-.sec4 .background1 .butt1 {
-  border-radius: 8px;
-  max-width: 150px;
-  height: 65px;
-  background-color: #dfb0a3;
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-  margin-top: 29px;
-  margin-left: 10px;
-  border: 0;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.sec4 .background1 .butt1:hover {
-  background-color: #c6adb1;
-  color: white;
 }
 
 .deliveryicons {
@@ -613,6 +600,21 @@ a {
   }
   .deliveryicons .deliverytexts {
     font-size: 10px;
+  }
+  .background1 {
+    padding-right: 100px;
+  }
+  .background1 .titles1 {
+    text-align: center;
+  }
+  .background1 .titles1 .newsletter .butt2 {
+    margin-top: 20px;
+  }
+  .background1 .titles1 .title11 {
+    font-size: 40px;
+  }
+  .background1 .titles1 .title21 {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=global.css.map */
