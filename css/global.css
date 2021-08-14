@@ -191,8 +191,8 @@ a {
 }
 
 .background .title1 {
-  font-size: 80px;
-  margin-bottom: 20px;
+  font-size: 70px;
+  margin-bottom: 40px;
   font-family: "Josefin Sans", sans-serif;
   color: #424345;
   max-width: 1000px;
@@ -200,7 +200,7 @@ a {
 }
 
 .background .title2 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Josefin Sans", sans-serif;
   color: #626664;
   margin-left: 10px;
@@ -424,7 +424,6 @@ a {
 
 .sec4 .background1 {
   background-image: url("../images/banner.jpg");
-  opacity: 0.5;
   width: 100%;
   height: 600px;
   background-repeat: no-repeat;
@@ -448,11 +447,28 @@ a {
   z-index: 2;
 }
 
+.sec4 .background1 .titles1 .newsletter .email-box {
+  max-width: 500px;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  padding-left: 15px;
+}
+
+.sec4 .background1 .titles1 .newsletter .butt2 {
+  border-radius: 25px;
+  width: 120px;
+  height: 50px;
+  color: black;
+  background-image: -webkit-gradient(linear, left top, right top, from(pink), to(lightblue));
+  background-image: linear-gradient(to right, pink, lightblue);
+}
+
 .sec4 .background1 .title11 {
   font-size: 80px;
   margin-bottom: 20px;
   font-family: "Josefin Sans", sans-serif;
-  color: red;
+  color: black;
   max-width: 1000px;
   width: 100%;
 }
@@ -462,6 +478,7 @@ a {
   font-family: "Josefin Sans", sans-serif;
   color: #626664;
   margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 .sec4 .background1 .butt1 {
@@ -491,8 +508,7 @@ a {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-right: 67px;
-  font-size: 70px;
+  font-size: 50px;
   color: gray;
   text-align: center;
 }
