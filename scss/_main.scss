@@ -81,6 +81,9 @@
     justify-content: space-between;
     padding-top: 35px;
     padding-bottom: 35px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
     .logo {
         display: flex;
         align-items: center;
@@ -183,6 +186,10 @@
         font-family: 'Josefin Sans', sans-serif;
         color: #909395;
     }
+    .about2::first-line {
+        color: black;
+        font-variant: small-caps;
+      }
 }
 
 // footer
@@ -244,7 +251,7 @@
     margin-bottom: 17px;
     border-radius:10px;
     &:hover {
-        filter: blur(5px);
+        filter: blur(7px);
     }
 }
 }
@@ -255,7 +262,7 @@
         background-color: #e1e0de;
     }
     .best {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center; 
     padding-top: 100px;   
     padding-bottom: 80px;    
@@ -300,6 +307,10 @@
         text-transform: uppercase;
         width: 15%;
         text-align: center;
+        &:hover {
+            width: 450px;
+            height: 450px;
+          }
         .desc {
         font-size: 25px;
         margin-bottom: 15px;
@@ -405,4 +416,5 @@
             font-family: $font03;
         }
 }
+
  
